@@ -16,8 +16,8 @@
 		602C69682730DAFA0026DB71 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602C69672730DAFA0026DB71 /* ViewController.xib */; };
 		602C696D2730DBD60026DB71 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C696B2730DBD60026DB71 /* TableViewCell.m */; };
 		602C696E2730DBD60026DB71 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 602C696C2730DBD60026DB71 /* TableViewCell.xib */; };
-		602C69722730DCBC0026DB71 /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C69712730DCBC0026DB71 /* TaskModel.m */; };
 		60B8112C27325C5F00011265 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 60B8112B27325C5F00011265 /* Settings.bundle */; };
+		60B8115527327B8300011265 /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B8115427327B8300011265 /* TaskModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +35,9 @@
 		602C696A2730DBD60026DB71 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		602C696B2730DBD60026DB71 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		602C696C2730DBD60026DB71 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		602C69702730DCBC0026DB71 /* TaskModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
-		602C69712730DCBC0026DB71 /* TaskModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
 		60B8112B27325C5F00011265 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		60B8115327327B8300011265 /* TaskModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		60B8115427327B8300011265 /* TaskModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +70,7 @@
 		602C69492730D9F00026DB71 /* tasks */ = {
 			isa = PBXGroup;
 			children = (
+				60B8115227327B8300011265 /* SubmoduleClass */,
 				602C694A2730D9F00026DB71 /* AppDelegate.h */,
 				602C694B2730D9F00026DB71 /* AppDelegate.m */,
 				602C69502730D9F00026DB71 /* ViewController.h */,
@@ -79,8 +80,6 @@
 				602C696A2730DBD60026DB71 /* TableViewCell.h */,
 				602C696B2730DBD60026DB71 /* TableViewCell.m */,
 				602C696C2730DBD60026DB71 /* TableViewCell.xib */,
-				602C69702730DCBC0026DB71 /* TaskModel.h */,
-				602C69712730DCBC0026DB71 /* TaskModel.m */,
 				602C69532730D9F00026DB71 /* Main.storyboard */,
 				602C69562730D9F30026DB71 /* Assets.xcassets */,
 				602C69582730D9F30026DB71 /* LaunchScreen.storyboard */,
@@ -88,6 +87,15 @@
 				602C695C2730D9F30026DB71 /* main.m */,
 			);
 			path = tasks;
+			sourceTree = "<group>";
+		};
+		60B8115227327B8300011265 /* SubmoduleClass */ = {
+			isa = PBXGroup;
+			children = (
+				60B8115327327B8300011265 /* TaskModel.h */,
+				60B8115427327B8300011265 /* TaskModel.m */,
+			);
+			path = SubmoduleClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,7 +172,7 @@
 			files = (
 				602C69522730D9F00026DB71 /* ViewController.m in Sources */,
 				602C696D2730DBD60026DB71 /* TableViewCell.m in Sources */,
-				602C69722730DCBC0026DB71 /* TaskModel.m in Sources */,
+				60B8115527327B8300011265 /* TaskModel.m in Sources */,
 				602C694C2730D9F00026DB71 /* AppDelegate.m in Sources */,
 				602C695D2730D9F30026DB71 /* main.m in Sources */,
 			);
